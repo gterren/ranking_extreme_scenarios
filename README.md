@@ -6,16 +6,14 @@ This repository contains the jupyter notebooks for the exploratory analysis to f
 
 **netload_extreme_scenarios.ipynb** analyzes the performance of Kernel Principal Componenent Analysis (KPCA) when applied to this problem.
 
-
 ## Functional Principal Componenet Analsyis
 
-**depth_n_fPCA.R**
+**depth_n_fPCA.R** uses library *fdapace* to implement functional Principal Componenent Analysis (fPCA) in a set of load, wind and solar scenarios. The code perform fPCA in the load, wind and solar scenarios of each assent independetly. This is exploratory analyses to indentify patterns in the variance exalined by the functional principal components.
 
-**sample_fPCA.R**
-
+**sample_fPCA.R** uses library *fdaoutlier* in a set of load, wind and solar scenarios.  
 
 ## Functional Depth
 
-**extremality_metrics.ipynb** implements in Python multiple depth metrics. Some of the functions are from a library priviouly implemented in R. This notebook includes the state-of-the-art of depth notions from a recetly publish review. The depth notions aim to statistically define *outlierness* or *extremality*. See notebook write-ups for information and references.
+**extremality_metrics.ipynb** implements in Python multiple depth metrics. Some of the functions are from a library priviouly implemented in R. This notebook includes the state-of-the-art of depth notions from a recetly published review. The depth notions aim to statistically define *outlierness* or *extremality*. See notebook write-ups for information and references.
 
 **extremality_detection.ipynb** analyzes the performance of different depth notions rooted in functional data analysis methods. In addition, different heuristic are implemented and the performance are compared to depth notions. A method that exploits both the statistical and energy definition of extremality is proposed identify the most extrame scenarios when are defined as the most costly as a consecuence of the the error in the day-ahead operational planning.

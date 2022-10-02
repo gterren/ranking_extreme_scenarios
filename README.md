@@ -10,7 +10,7 @@ This repository contains the jupyter notebooks for the exploratory analysis to f
 
 **depth_n_fPCA.R** uses library *fdapace* to implement functional Principal Componenent Analysis (fPCA) in a set of load, wind and solar scenarios. The code perform fPCA in the load, wind and solar scenarios of each assent independetly. This is exploratory analyses to indentify patterns in the variance exalined by the functional principal components.
 
-**sample_fPCA.R** uses library *fdaoutlier* in a set of load, wind and solar scenarios.  
+**sample_fPCA.R** exaplore the performances of the library *fdaoutlier* in a set of load, wind and solar scenarios.  
 
 ## Functional Depth
 

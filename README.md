@@ -1,4 +1,4 @@
-# Identification Extreme Scenarios in Day-ahead Operational Planning under Stocasticity
+# Identification of Extreme Scenarios in Day-ahead Operational Planning under Stocasticity
 
 This repository contains the jupyter notebooks for the exploratory analysis to find a statistical method to indentify extreme scenarios in day-ahead forecasting. In particular, we are interest in finding extreme scenarios in solar, wind generation and energy demard for the operation planning of power networks. If it is possible to identify which scenarios are the most extreme, the computation cost of a operation contrained optimization problem under stochasticity can be simplify by only solving the problem for the most extreme scenarios. The method study in this reserach are included in the following notebooks:
 

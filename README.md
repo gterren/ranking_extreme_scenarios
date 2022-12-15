@@ -20,4 +20,7 @@ This repository contains the jupyter notebooks for the exploratory analysis to f
 
 ## Vatic Visualization
 
-**extremality_metrics.ipynb** implements a processing step to match Vatic output with grid specification. It plots theree different aspect of the grid per scenarior, date, and hour: buses (local marginal pricing), branches (capacity factor and nameplace capacity of transformers and lines), and generators (capacity factor and nameplace capacity of solar and wind, and thermal). The last graph overlaps the most important caracteristics from these three aspects to summarize the state of the grid. The repository includes Texas-7k shapefile for representation purposes.
+**viz.ipynb** implements a processing step to match Vatic output with grid specification. It plots theree different aspect of the grid per scenarior, date, and hour: buses (local marginal pricing), branches (capacity factor and nameplace capacity of transformers and lines), and generators (capacity factor and nameplace capacity of solar and wind, and thermal). The last graph overlaps the most important caracteristics from these three aspects to summarize the state of the grid. The repository includes Texas-7k shapefile for representation purposes.
+
+## Run Vatic Scenarios
+

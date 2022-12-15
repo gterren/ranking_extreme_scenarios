@@ -24,4 +24,4 @@ This repository contains the jupyter notebooks for the exploratory analysis to f
 
 ## Run Vatic Scenarios
 
-**run_scenarios_in_vatic.py** is used to run scenarios in parallel using MPI library and gurobi. This code gives access to the configuration in the simulators and modify Vatic libraries to run CLNSim scenarios in a coupled or sequencial manner. The troque or slurm file to drive the job is **run_mpi.slurm**.
+**run_scenarios_in_vatic.py** is used to run scenarios in parallel using MPI library and gurobi. This code gives access to the configuration of Vatic simulators function and modified Vatic functionalities to run CLNSim scenarios in a coupled or sequencial manner. The troque or slurm file to drive the job is **run_mpi.slurm**.

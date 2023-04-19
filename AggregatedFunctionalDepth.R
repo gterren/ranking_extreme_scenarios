@@ -5,7 +5,7 @@ library(fda.usc)
 
 pickle = import("pickle")
 
-X_ = py_load_object("/Users/Guille/Desktop/extreme_scenarios/data/ProcessedAggregatedData.pkl", pickle = "pickle")
+X_ = py_load_object("/Users/Guille/Dropbox/ProcessedDataTexas/vatic_output/Texas-7k/FunctionalDepthsTexas/ProcessedAggregatedData.pkl", pickle = "pickle")
 L_ = X_[[1]]
 S_ = X_[[2]]
 W_ = X_[[3]]
@@ -48,5 +48,5 @@ for (i_feature in 1:N_features){
     #FD_[14, i_feature, i_day,] = depth.KFSD(fdata(x_))$dep
 }}
 
-py_save_object(FD_, "/Users/Guille/Desktop/extreme_scenarios/data/AreaFuntionalDepths_v0.pkl", pickle = "pickle")
-#py_save_object(FD_, "/Users/Guille/Desktop/extreme_scenarios/data/DiffFuntionalDepths.pkl", pickle = "pickle")
+py_save_object(FD_, "/Users/Guille/Dropbox/ProcessedDataTexas/vatic_output/Texas-7k/FunctionalDepthsTexas/AreaFuntionalDepths.pkl", pickle = "pickle")
+#py_save_object(FD_, "/Users/Guille/Dropbox/ProcessedDataTexas/vatic_output/Texas-7k/FunctionalDepthsTexas/DiffFuntionalDepths.pkl", pickle = "pickle")

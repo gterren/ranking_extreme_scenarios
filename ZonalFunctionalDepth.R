@@ -36,7 +36,7 @@ for (i_feature in 1:N_features){
       FD_[1, i_feature, i_zone, i_day,]  = band_depth(x_)
       FD_[2, i_feature, i_zone, i_day,]  = modified_band_depth(x_)
       FD_[3, i_feature, i_zone, i_day,]  = directional_quantile(x_, quantiles = c(0.025, 0.975))
-      FD_[3, i_feature, i_zone, i_day,]  = max(FD_[3, i_feature, i_zone, i_day,]) - FD_[3, i_feature, i_zone, i_day,] + min(FD_[3, i_feature, i_vatic, i_day,]) 
+      FD_[3, i_feature, i_zone, i_day,]  = max(FD_[3, i_feature, i_zone, i_day,]) - FD_[3, i_feature, i_zone, i_day,] + min(FD_[3, i_feature, i_zone, i_day,]) 
       FD_[4, i_feature, i_zone, i_day,]  = extremal_depth(x_)
       FD_[5, i_feature, i_zone, i_day,]  = linfinity_depth(x_)
       FD_[6, i_feature, i_zone, i_day,]  = extreme_rank_length(x_, type = "two_sided")
